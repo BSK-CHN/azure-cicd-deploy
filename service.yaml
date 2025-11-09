@@ -5,7 +5,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    app: azure-cicd-prod
+    app: cicd-demo    # 🔹 change this line
   ports:
     - port: 80
       targetPort: 80
