@@ -15,7 +15,7 @@ spec:
       containers:
         - name: cicd-demo
           # placeholder will be replaced by CI with commit SHA
-          image: thecloudschool/aks-demo:32850eabacf4868621a068eb671f55bf2036e2e1
+          image: thecloudschool/aks-demo:0b785aa33e46bcafd00a78ff900c007eb4053a95
           ports:
             - containerPort: 80
           readinessProbe:
